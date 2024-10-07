@@ -1,0 +1,84 @@
+ 
+body{
+    
+    background: url(waterfall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.signupbox{
+    background: rgba(44, 62, 80, 0.8);
+    padding: 40px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: auto;
+    max-width: 500px;
+    
+}
+
+
+form{
+    width: 240x;
+    text-align: center;
+    margin-top: 10;
+}
+   
+
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    font-size: 15px;
+    font-weight: 200px;
+    padding: 10px 0; 
+    transition: border 0.5s;
+    outline: none;
+    height: 35px;
+    color: white;
+}
+
+h1{
+    color: yellow;
+}
+
+a{
+    color: yellow;
+    
+}
+
+button{
+   border: 300px white;
+   border-radius:450px;
+   padding: 10px;
+   width: 200px;
+   background-color: brown;
+   cursor: pointer;
+}  
+
+button:hover{
+    color: white;
+    background: brown;
+}
+
+p{
+    color: white;
+}
+
+::placeholder{
+    color: whitesmoke;
+    opacity: 0.8px;
+}
+
+@media(max-width:425px){
+    section{
+    padding-top: 200px;
+
+    }
+    .signupbox{
+        margin-top: 200px;
+    }
+}
